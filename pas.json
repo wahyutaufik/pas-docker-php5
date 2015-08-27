@@ -1,0 +1,16 @@
+{
+    "name": "xinix/docker-php5",
+    "version": "1.0.0",
+    "profile": "docker",
+
+    "docker": {
+        "containers": {
+            "php5": {
+                "volumes": [
+                    "./srv/www:/srv/www"
+                ]
+            }
+        }
+    }
+}
+
