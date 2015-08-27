@@ -6,8 +6,11 @@
     "docker": {
         "containers": {
             "php5": {
+                "ports": [
+                    "80:80"
+                ],
                 "volumes": [
-                    "./srv/www:/srv/www"
+                    "/home/xinix/srv/www:/srv/www"
                 ]
             }
         }
