@@ -1,1 +1,1 @@
-# pas-docker-rockmongo
+# pas-docker-php5
