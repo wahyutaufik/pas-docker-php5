@@ -1,5 +1,5 @@
 {
-    "name": "wahyutaufik/docker-php5",
+    "name": "pas-docker-php5",
     "profile": "docker",
 
     "docker": {

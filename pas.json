@@ -1,5 +1,5 @@
 {
-    "name": "xinix/docker-php5",
+    "name": "pas-php5",
     "version": "1.0.0",
     "profile": "docker",
 
@@ -11,6 +11,9 @@
                 ],
                 "volumes": [
                     "/home/xinix/srv/www:/srv/www"
+                ],
+                "restart": [
+                    "always"
                 ]
             }
         }
