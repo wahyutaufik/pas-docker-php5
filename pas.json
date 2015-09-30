@@ -10,7 +10,7 @@
                     "80:80"
                 ],
                 "volumes": [
-                    "/home/wahyu/srv/www:/srv/www"
+                    "/home/xinix/srv/www:/srv/www"
                 ],
                 "restart": [
                     "always"
