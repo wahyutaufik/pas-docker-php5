@@ -8,6 +8,7 @@ RUN apt-get update && \
     pecl install mongo
 
 ADD ./php.ini /etc/php5/fpm/
+ADD ./default /etc/nginx/sites-available/default
 
 EXPOSE 80
 
