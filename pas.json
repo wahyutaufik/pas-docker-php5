@@ -1,11 +1,11 @@
 {
-    "name": "pas-php5",
+    "name": "php55",
     "version": "1.0.0",
     "profile": "docker",
 
     "docker": {
         "containers": {
-            "php5": {
+            "nginx": {
                 "ports": [
                     "80:80"
                 ],

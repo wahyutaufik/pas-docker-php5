@@ -12,4 +12,5 @@ $ pas up
 
 Access to container:
 ```
-$ docker exec -ti xinix-docker-sql-mysql-0 bash
+$ docker exec -ti php55-nginx-0 bash
+```
